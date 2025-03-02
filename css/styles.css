@@ -804,8 +804,8 @@ main {
  }
 
 .checkbox-hidden:checked+.form-checkbox .form-checkbox-icon {
-     background-color: #404bbf;
-    order: none;
+    background-color: #404bbf;
+    border: none;
     fill: #F4F4FD;
  }
 
