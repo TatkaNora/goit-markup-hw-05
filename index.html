@@ -444,21 +444,23 @@
 
                 <div class="form-div-textarea">
                     <label class="form-label" for="user-comment">Comment</label>
-                    <textarea class="form-textarea" placeholder="Text input" id="user-comment"></textarea>
+                    <textarea class="form-textarea" name="user-comment" placeholder="Text input"
+                        id="user-comment"></textarea>
                 </div>
 
                 <div class="form-div-check">
-                    <label class="form-checkbox">
-                        <input type="checkbox" required name="agree-check" class="checkbox-hidden" />
+
+                    <input type="checkbox" required name="user-privacy" class="checkbox-hidden visually-hiden"
+                        id="user-privacy" value="true" />
+
+                    <label class="form-checkbox" for="user-privacy">
                         <span class="form-checkbox-icon">
                             <svg class="checkbox-icon" width="10" height="8">
                                 <use href="./images/icons.svg#icon-checked"></use>
                             </svg>
                         </span>
-                        <span class="form-checkbox-text">
-                            I accept the terms and conditions of the
-                            <a href="#" class="privacy-link">Privacy Policy</a>
-                        </span>
+                        I accept the terms and conditions of the
+                        <a href="#" class="privacy-link">Privacy Policy</a>
                     </label>
                 </div>
                 <button type="submit" class="form-submit-button">
