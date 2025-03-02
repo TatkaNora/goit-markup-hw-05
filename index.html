@@ -403,23 +403,23 @@
 
     <div class="modal-overlay">
         <div class="modal-window">
-            <form class="form">
-                <button type="button" class="form-icon-close-btn">
-                    <svg class="form-icon-close" width="8" height="8">
-                        <use href="./images/icons.svg#icon-close"></use>
-                    </svg>
-                </button>
+            <button type="button" class="form-icon-close-btn">
+                <svg class="form-icon-close" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
 
+            <div class="form">
                 <p class="form-title">Leave your contacts and we will call you back</p>
 
                 <div class="form-input-wrapper">
-                    <label class="form-label">
-                        Name
-                        <svg class="form-input-icon" width="12" height="12">
-                            <use href="./images/icons.svg#icon-name"></use>
-                        </svg>
-                        <input type="text" class="form-input" name="name" required />
-                    </label>
+                    <label class="form-label" for="user-name">Name</label>
+
+                    <svg class="form-input-icon" width="12" height="12">
+                        <use href="./images/icons.svg#icon-name"></use>
+                    </svg>
+                    <input type="text" class="form-input" name="name" required />
+
                 </div>
 
                 <div class="form-input-wrapper">
@@ -460,10 +460,11 @@
                     </span>
                 </label>
 
-                <button type="submit" class="form-submit-button">
-                    Send
-                </button>
-            </form>
+
+            </div>
+            <button type="submit" class="form-submit-button">
+                Send
+            </button>
         </div>
     </div>
 
