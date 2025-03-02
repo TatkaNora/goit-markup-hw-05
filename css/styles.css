@@ -532,9 +532,7 @@ main {
 .footer-subscribe {
     display: flex;
     flex-direction: column;
-    /* Заголовок зверху, а форма під ним */
     align-items: flex-start;
-    /* Вирівнюємо все ліворуч */
     gap: 16px;
     margin-left: auto;
 }
@@ -545,60 +543,60 @@ main {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-    margin-bottom: 0;
-    /* Виправляємо зайвий відступ */
+    margin-bottom: 16px;
 }
 
-/* Контейнер для інпуту та кнопки */
 .footer-subscribe-form {
     display: flex;
-    gap: 16px;
-    /* Відстань між полем і кнопкою */
 }
 
+.footer-input-lable{
+    gap: 24px;
+}
 .footer-input {
     border: 1px solid #fff;
     border-radius: 4px;
     width: 264px;
     height: 40px;
     background-color: transparent;
-    color: #fff;
+    color: #ffffff;
     padding-left: 16px;
-    font-size: 14px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-/* Стилі для Placeholder */
 .footer-input::placeholder {
-    color: rgba(255, 255, 255, 0.6);
+    color: #ffffff;
     font-weight: 400;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
 }
 
-/* Кнопка */
 .footer-subscribe-button {
-    background: #4d5ae5;
-    border: none;
-    border-radius: 4px;
-    padding: 8px 24px;
+    min-width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    gap: 8px;
+    color: #ffffff; 
+    cursor: pointer;    
+    background: #4d5ae5;
+    border: none;
+    border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Іконка всередині кнопки */
 .footer-subscribe-icon {
+    margin-left: 16px;
     width: 24px;
     height: 24px;
     fill: #fff;
