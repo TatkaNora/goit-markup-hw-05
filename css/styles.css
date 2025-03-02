@@ -486,6 +486,10 @@ main {
    margin-right: 120px;
    padding-left: 158px ;
 } 
+
+.footer-social-media {
+    margin-right: 120px;
+}
  
 .footer-social-media-p{
     font-weight: 500;
@@ -502,6 +506,7 @@ main {
     gap: 16px;
     margin-right: auto;
 }
+
 .foter-list-item {
     width: 40px;
     height: 40px;
@@ -534,7 +539,6 @@ main {
     flex-direction: column;
     align-items: flex-start;
     gap: 16px;
-    margin-left: auto;
 }
 
 .footer-subscribe-header {
@@ -692,12 +696,6 @@ main {
 
  .form-input-wrapper {
      margin-bottom: 8px;
-  /*   display: flex;
-     align-items: center;
-     border: 1px solid #2e2f42;
-     border-radius: 4px;
-     padding: 8px 12px;
-     transition: border-color 250ms ease-in-out;*/
  }
 
  .form-label {
